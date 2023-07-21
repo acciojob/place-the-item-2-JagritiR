@@ -3,10 +3,48 @@
 <html>
 
 <head>
+	<style>
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+</style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+	<div class="holder">
+  <div class="item green">3</div>
+  <div class="item green">3</div>
+  <div class="item green">3</div>
+  <div class="item green">3</div>
+  <div class="item green">3</div>
+  <div class="item red">1</div>
+  <div class="item blue">2</div>
+</div>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
